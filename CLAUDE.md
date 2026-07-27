@@ -71,3 +71,8 @@ AI 모델 학습/RAG 시스템 구축에 사용될 예정입니다.
 - 384개 항목 완성도 검증 스크립트 (누락/중복 체크)
 - 입력 데이터 → AI 학습용 포맷(JSON/JSONL) 변환 스크립트
 - 폼 유효성 검사 강화 (필수 필드, 글자 수 제한 등)
+
+## 데이터 스키마 (JSON 규격)
+
+- **괘 전체 정보 (`type: GUA_TOTAL`)**: `id`, `index`, `name_hanja`, `name_hangul`, `type`, `keywords`, `summary`, `total_judgment`, `modern_interpretation`
+- **개별 효 정보 (`type: HYO`)**: `id`, `index`, `line_no`, `name_hangul`, `type`, `original_text`, `meaning`, `context` (`wealth`, `health`, `love`), `action_guide`, `tags`
