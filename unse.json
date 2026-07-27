@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "category": "주역",
+    "version": "1.0",
+    "author": "전문가 성함"
+  },
+  "data": [
+    {
+      "id": "GUA_01_00", 
+      "index": 1,
+      "name_hanja": "乾爲天",
+      "name_hangul": "중천건",
+      "type": "GUA_TOTAL", 
+      "keywords": ["창조", "강건", "시작", "군자"],
+      "summary": "하늘이 거듭된 형상으로, 끊임없이 강건하게 노력함을 의미함.",
+      "total_judgment": "원형이정(元亨利貞). 크게 형통하고 바름이 이롭다.",
+      "modern_interpretation": "새로운 사업이나 프로젝트를 시작하기에 아주 좋은 시기이나, 독단은 피해야 함."
+    },
+    {
+      "id": "GUA_01_01",
+      "index": 1,
+      "line_no": 1,
+      "name_hangul": "중천건 초구",
+      "type": "HYO",
+      "original_text": "잠룡물용(潛龍勿用)",
+      "meaning": "물에 잠긴 용이니 쓰지 말라.",
+      "context": {
+        "wealth": "아직 자산이 묶여 있는 상태. 경매 입찰보다는 분석에 집중할 때.",
+        "health": "체력 비축이 필요한 시기. 하체 단련 권장.",
+        "love": "상대에게 다가가기보다 자신을 가꾸며 기다리는 것이 길함."
+      },
+      "action_guide": "서두르지 말고 실력을 쌓으며 때를 기다릴 것.",
+      "tags": ["인내", "관망", "준비기"]
+    }
+  ]
+}
