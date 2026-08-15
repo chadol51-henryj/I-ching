@@ -10,12 +10,12 @@ AI 모델 학습/RAG 시스템 구축에 사용될 예정입니다.
 
 ## 기술 스택
 
-- Frontend: HTML / JavaScript (프레임워크 없이 순수 구현으로 추정 — 실제 구조에 맞게 수정)
+- Frontend: HTML / JavaScript (프레임워크 없이 순수 구현)
 - 로컬 임시 저장: `localStorage` (입력 중 데이터 유실 방지, 새로고침 시 복원)
 - 백엔드 연동: Google Apps Script (Google Sheets Web App으로 배포)
 - 데이터 저장소: Google Sheets
 
-## 데이터 스키마 (초안 — 실제 필드명으로 수정 필요)
+## 데이터 스키마 
 
 384개 항목은 다음 구조를 따릅니다:
 
@@ -28,7 +28,7 @@ AI 모델 학습/RAG 시스템 구축에 사용될 예정입니다.
 | 해석 텍스트 | 사용자가 입력하는 현대적 해석 |
 | (선택) 태그/카테고리 | 길흉, 상황별 분류 등 |
 
-> 실제 코드의 필드명/구조가 다르면 이 표를 코드 기준으로 갱신해주세요.
+> 실제 코드의 필드명/구조가 다르면 이 표를 코드 기준으로 갱신할 것.
 
 ## Google Sheets / Apps Script 연동
 
@@ -39,7 +39,7 @@ AI 모델 학습/RAG 시스템 구축에 사용될 예정입니다.
 
 ## localStorage 사용 규칙
 
-- 저장 키 네이밍: `[예: ichingform_progress, ichingform_draft_{index} 등 — 실제 규칙으로 수정]`
+- 저장 키 네이밍: `[예: ichingform_progress, ichingform_draft_{index} 등]`
 - 저장 시점: `[예: 입력 필드 변경 시마다 / 특정 버튼 클릭 시]`
 - 복원 로직: 페이지 로드 시 localStorage에서 미완료 입력 복원
 
@@ -59,7 +59,7 @@ AI 모델 학습/RAG 시스템 구축에 사용될 예정입니다.
 ## 자주 쓰는 명령어
 
 ```bash
-# 로컬 서버 실행 (예시 — 실제 방식으로 수정)
+# 로컬 서버 실행 
 [예: python -m http.server 8000]
 
 # Apps Script 배포/업데이트 (clasp 사용 시)
